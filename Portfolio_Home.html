@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Todd's Portfolio</title>
+	<link rel="stylesheet" href="toddstyle5.css">
+</head>
+
+<body>
+<div class="wrapper">
+	<header>
+		<h1>Todd's Portfolio</h1>
+	</header>
+	<nav>
+		<a href="https://opal.ils.unc.edu/~trsmith2/trsmith2_a2.html" class="navLinks">Home</a>
+		<a href="" class="navLinks">Portfolio</a>
+		<a href="" class="navLinks">Credentials</a>
+		<a href="" class="navLinks">Contact</a>
+	</nav>
+	<section>
+		<h2>Here's a sample of my work:</h2>
+		<div class="cards">
+			<div class="card1">
+				<img src="diary.jpg" alt="Picture of Diary">
+				<p class="intro">Diary Study</p>
+				<p id="details1">In this diary study, participants wrote about how they used the UNC Libraries' <a href="https://library.unc.edu/places/">Places to Study</a> tool to find study spaces on campus. This study occurred in Spring 2019. To learn more about this project, visit this page.</p>
+				<p id="showLess1">See more</p>
+			</div>
+			<div class="card2">
+				<img src="cardsort.jpg" alt="Picture of Playing Cards">
+				<p class="intro">LOUIS Card Sort</p>
+				<p id="details2">This project aimed to improve LOUIS, the intranet for the UNC Library employees. This project focused on information architecture and user interface design. This initiative started in Summer 2019 and is still continuing. To learn more about this project, visit <a href="https://opal.ils.unc.edu/~trsmith2/trsmith2_a3.html">this page.</a></p>
+				<p id="showLess2">See more</p>
+			</div>
+			<div class="card3">
+				<img src="nextbus.jpg" alt="Picture of Bus in the City">
+				<p class="intro">NextBus App Redesign</p>
+				<p id="details3">For my User Interface Design class, myself and a teammate redesigned the <a href="https://www.nextbus.com/#!/sf-muni/E/E____I_F00/4532/4503">NextBus</a> app. We focused on design problems in the user interface and conducted research to solve the problem. Afterwards, we proposed a new design to address these issues. This project occurred in Spring 2019. To learn more about this project, visit this page.</p>
+				<p id="showLess3">See more</p>
+			</div>
+			<div class="card4">
+				<img src="ps4.jpg" alt="Picture of Playstation 4 Controller">
+				<p class="intro">PS4 App Redesign</p>
+				<p id="details4">This redesign was a response to a design thinking challenge for class. I focused on the primary question: “how might we reduce the amount of time that PS4 users spend waiting for games to update?” To answer this question, I proposed a <a href="https://www.playstation.com/en-us/explore/ps4/app/">PS4</a> app redesign that enabled users to remote start game updates. This project occurred in Fall 2019. To learn more about this project, visit this page. </p>
+				<p id="showLess4">See more</p>
+			</div>
+			<div class="card5">
+				<img src="notebook.jpg" alt="Picture of Pencil and Notebook">
+				<p class="intro">Sketch Contest: UNC Libraries</p>
+				<p id="details5">This contest allowed UNC students to draw their ideal version of the <a href="https://library.unc.edu/">UNC Library website</a>. This project focused on exploratory research for the eventual website redesign. This project occurred in Fall 2019. To learn more about this project, visit this page. </p>
+				<p id="showLess5">See more</p>
+			</div>
+			<div class="card6">
+				<img src="news.jpg" alt="Picture of Newspaper on a Table">
+				<p class="intro">WRAL Redesign</p>
+				<p id="details6">This redesign was a class project that simulated a client project. In other words, although I did not have a contract with <a href="https://www.wral.com/">WRAL</a>, WRAL stakeholders still visited our class and engaged in the design process. Our class conducted a usability test to inform our proposed redesign. This project occurred in Fall 2019. To learn more about this project, visit this page. </p>
+				<p id="showLess6">See more</p>
+			</div>
+		</div>
+	</section>
+	<footer>
+			<span id="todays-date">Date will go here</span>
+	</footer>
+</div>
+	<script src="showmore.js"></script>
+	<script>
+			var todaysDate = new Date();
+			var dateElement = document.querySelector("#todays-date");
+			dateElement.textContent = todaysDate;
+	</script>
+</body>
+</html>
