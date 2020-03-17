@@ -91,13 +91,6 @@ body {
 				color: oldlace;
 				padding: 0.8%;
 			}
-			h4 {
-				font-family: 'Montserrat', serif;
-				font-size: .8em;
-				text-align: center;
-				color: #479678;
-				padding: 0.8%;
-			}
 			img {
 				border-radius: 10px;
 				max-width: 70%;
@@ -115,28 +108,17 @@ body {
 			span {
 				font-family: Montserrat, serif;
 				font-size: .6em;
-				color: whitesmoke;
-				font-weight: bold;
+				color: #000000;
 				line-height: 1.5;
-				text-align: center;
 			}
 			a {
 				color: whitesmoke;
 				font-size: .9em;
 			}
-			strong {
-				color: #E3D7BA;
-				font-size: 1.5em;
-				font-style: italic;
-				font-weight: bold;
-				text-align: center;
-			}
 			li {
-				font-size: .6em;
+				font-size: .9em;
 				color: whitesmoke;
-				margin: auto;
-				padding: .5em;
-				line-height: 1.5;
+				font-size: .6em;
 			}
 			.center {
 				display: block;
@@ -150,12 +132,10 @@ body {
 					background-color: #DCD0C0;
 					padding: 1em;
 					text-align: center;
-					color: #233237;
 			}
 			header { background-color: #E3D7BA; }
 			nav    { background-color: #233237; }
-			aside  { background-color: #2F3E4F; }
-			article { background-color: #233237; }
+			aside, article { background-color: #2F3E4F; }
 			section { background-color: #303A28; }
 			footer { background-color: #E3D7BA; }
 			nav {
@@ -164,18 +144,11 @@ body {
 				align-items: center;
 				font-size: .6em;
 				text-align: center;
-				font-weight: bold;
+				align-items: center;
 			}
 			.navLinks {
 				text-decoration: none;
-				color: whitesmoke;
 			}
 			.navLinks:hover {
 				color: whitesmoke;
-			}
-			.row {
-			display: flex;
-			}
-			.column {
-			flex: 50%;
 			}
