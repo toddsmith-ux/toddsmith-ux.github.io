@@ -1,0 +1,181 @@
+body {
+		margin: 0;
+		font-family: 'Montserrat', sans-serif;
+		color: #000000;
+		}
+		header  { grid-area: head; }
+		nav     { grid-area: nav;  }
+		footer  { grid-area: foot; }
+		section { grid-area: section; }
+		article { grid-area: main; } 
+		aside   { grid-area: side; }
+			
+			.wrapper {
+			display: grid;
+			grid-template-columns: 	repeat(10, 1fr);
+			grid-template-rows: auto auto auto;
+			grid-template-areas: 
+				"head head head head head head head head head head"
+				"nav  nav  nav  nav  nav  nav  nav  nav  nav  nav"
+				"side side side side main main main main main main"
+				"section section section section section section section section section section"
+				"foot foot foot foot foot foot foot foot foot foot";
+			margin: 0;
+			}
+			
+			.cards {
+			margin: 5%;
+			display: grid;
+			grid-gap: 10px;
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-areas: 
+			"nav   nav   nav"
+			"card1 card2 card3"
+			"card4 card5 card6"
+			}
+		
+			.card1, .card2, .card3, .card4, .card5, .card6 {
+				padding: 0.75em;
+				margin: 0.25em;
+				color: whitesmoke;
+				background-color: #233237;
+				border: 0.25em solid oldlace;
+			}
+		
+			.card1 { grid-area: card1}
+			.card2 { grid-area: card2}
+			.card3 { grid-area: card3}
+			.card4 { grid-area: card4}
+			.card5 { grid-area: card5}
+			.card6 { grid-area: card6}
+		
+			img {
+				max-width: 100%;
+				border-radius: 4%;
+				display: block;
+				margin: 0 auto;
+				align-content: center;
+			}
+		
+			#details1, #details2, #details3, #details4, #details5, #details6 {display: none;}
+		
+			#showLess1, #showLess2, #showLess3, #showLess4, #showLess5, #showLess6 {
+				color: oldlace;
+				font-weight: bold;
+			}
+			
+			.wrapper > * {
+				margin: 0;
+				padding: 0.5em;
+				color: white;
+				font-size: 150%;			
+			}
+			
+			h1 {
+				font-family: Baskerville, serif;
+				font-size: 4em;
+				font-weight: bold;
+				color: #233237;
+				text-align: center;
+			}
+			h2 {
+				font-family: 'Montserrat', sans-serif;
+				font-size: 2em;
+				text-align: center;
+				color: whitesmoke;
+			}
+			h3 {
+				font-family: 'Baskerville', serif;
+				font-size: 1em;
+				text-align: center;
+				color: oldlace;
+				padding: 0.8%;
+			}
+			h4 {
+				font-family: 'Montserrat', serif;
+				font-size: .8em;
+				text-align: center;
+				color: #479678;
+				padding: 0.8%;
+			}
+			img {
+				border-radius: 10px;
+				max-width: 70%;
+				border-style: solid;
+				border-color: #557985;
+				margin: auto;
+			}
+			p {
+				font-family: Montserrat, serif;
+				font-size: .6em;
+				color: whitesmoke;
+				line-height: 1.5;
+				text-align: center;
+			}
+			span {
+				font-family: Montserrat, serif;
+				font-size: .6em;
+				color: whitesmoke;
+				font-weight: bold;
+				line-height: 1.5;
+				text-align: center;
+			}
+			a {
+				color: whitesmoke;
+				font-size: .9em;
+			}
+			strong {
+				color: #E3D7BA;
+				font-size: 1.5em;
+				font-style: italic;
+				font-weight: bold;
+				text-align: center;
+			}
+			li {
+				font-size: .6em;
+				color: whitesmoke;
+				margin: auto;
+				padding: .5em;
+				line-height: 1.5;
+			}
+			.center {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 70%;
+			}
+			footer {
+					font-family: Baskerville, serif;
+					font-weight: Bold;
+					background-color: #DCD0C0;
+					padding: 1em;
+					text-align: center;
+					color: #233237;
+			}
+			header { background-color: #E3D7BA; }
+			nav    { background-color: #233237; }
+			aside  { background-color: #2F3E4F; }
+			article { background-color: #233237; }
+			section { background-color: #303A28; }
+			footer { background-color: #E3D7BA; }
+			nav {
+				display: grid;
+				grid-template-columns: repeat(4, 1fr);
+				align-items: center;
+				font-size: .6em;
+				text-align: center;
+				font-weight: bold;
+			}
+			.navLinks {
+				text-decoration: none;
+				color: whitesmoke;
+			}
+			.navLinks:hover {
+				color: whitesmoke;
+			}
+			.row {
+			display: flex;
+			}
+			.column {
+			flex: 50%;
+			}
