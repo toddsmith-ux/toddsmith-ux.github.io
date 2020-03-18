@@ -144,7 +144,7 @@ body {
 			header { background-color: #F7F5E6; }
 			nav    { background-color: #52658F; }
 			aside, article { background-color: #333A56; }
-			section { background-color: #303A28; }
+			section { background-color: #333A56; }
 			nav {
 				display: grid;
 				grid-template-columns: repeat(4, 1fr);
