@@ -108,24 +108,35 @@ body {
 			p {
 				font-family: Montserrat, serif;
 				font-size: .6em;
-				color: whitesmoke;
+				color: white;
 				line-height: 1.5;
 				text-align: center;
 			}
 			span {
 				font-family: Montserrat, serif;
 				font-size: .6em;
-				color: #000000;
+				color: white;
+				font-weight: bold;
 				line-height: 1.5;
+				text-align: center;
 			}
 			a {
-				color: whitesmoke;
+				color: white;
 				font-size: .9em;
 			}
+			strong {
+				color: #F7F5E6;
+				font-size: 1.5em;
+				font-style: italic;
+				font-weight: bold;
+				text-align: center;
+			}
 			li {
-				font-size: .9em;
-				color: whitesmoke;
 				font-size: .6em;
+				color: white;
+				margin: auto;
+				padding: .5em;
+				line-height: 1.5;
 			}
 			.center {
 				display: block;
@@ -141,17 +152,18 @@ body {
 					text-align: center;
 					color: #333A56;
 			}
-			header { background-color: #F7F5E6; }
+			header { background: linear-gradient(to bottom, ivory, oldlace); }
 			nav    { background-color: #52658F; }
-			aside, article { background-color: #333A56; }
+			aside  { background-color: #333A56; }
+			article { background-color: #333A56; }
 			section { background-color: #333A56; }
 			nav {
 				display: grid;
-				grid-template-columns: repeat(4, 1fr);
+				grid-template-columns: repeat(3, 1fr);
 				align-items: center;
 				font-size: .6em;
 				text-align: center;
-				align-items: center;
+				font-weight: bold;
 			}
 			.navLinks {
 				text-decoration: none;
@@ -159,4 +171,10 @@ body {
 			}
 			.navLinks:hover {
 				color: whitesmoke;
+			}
+			.row {
+			display: flex;
+			}
+			.column {
+			flex: 50%;
 			}
