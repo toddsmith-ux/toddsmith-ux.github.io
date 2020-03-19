@@ -147,10 +147,10 @@ body {
 			footer {
 					font-family: Baskerville, serif;
 					font-weight: Bold;
-					background-color: #9195A3;
+					background-color: #52658F;
 					padding: 1em;
 					text-align: center;
-					color: #52658F;
+					color: white;
 			}
 			header { background: linear-gradient(to bottom, ivory, oldlace); }
 			nav    { background-color: #52658F; }
