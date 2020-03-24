@@ -145,6 +145,20 @@ body {
 				margin-right: auto;
 				width: 70%;
 			}
+			.imgcontainter {
+				display: inline-block;
+				margin: auto;
+				height: 30px;
+				/* text-align: center; */
+				width: 425px; 
+			}
+			.imgcontainter2 {
+				display: inline-block;
+				margin: auto;
+				height: 30px;
+				/* text-align: center; */
+				width: 425px; 
+			}
 			footer {
 					font-family: Baskerville, serif;
 					font-weight: Bold;
