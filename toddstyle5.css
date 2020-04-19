@@ -106,8 +106,8 @@ body {
 				margin: auto;
 			}
 			p {
-				font-family: Montserrat, serif;
-				font-size: .6em;
+				font-family: Baskerville, serif;
+				font-size: .75em;
 				color: white;
 				line-height: 1.5;
 				text-align: center;
@@ -132,7 +132,8 @@ body {
 				text-align: center;
 			}
 			li {
-				font-size: .6em;
+				font-size: .75em;
+				font-family: Baskerville, serif;
 				color: white;
 				margin: auto;
 				padding: .5em;
