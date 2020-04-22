@@ -111,6 +111,8 @@ body {
 				color: whitesmoke;
 				line-height: 1.5;
 				text-align: center;
+				padding-left: 5em;
+				padding-right: 5em;
 			}
 			.intro-text {
 				font-family: 'Libre Baskerville', serif;
