@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Next Bus Results</title>
+<link href="toddstyle5.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<h1 class="gradient-text">NextBus Redesign</h1>
+		</header>
+		<nav>
+			<a href="https://toddsmith-ux.github.io/" class="navLinks">Home</a>
+			<a href="https://toddsmith-ux.github.io/Portfolio_Home.html" class="navLinks">Portfolio</a>
+			<a href="https://toddsmith-ux.github.io/Credentials.html" class="navLinks">Credentials</a>
+		</nav>
+			<section>
+			<h2>User Task Analysis</h2>
+			<h3>Use Cases</h3>
+			<p>To outline the user's process as they navigate through the interface, we wrote use cases for the following tasks:</p>
+			<ol>
+				<li>Find the next available bus to take the user home (via multiple bus agencies)</li>
+				<li>Create a user profile (to indicate home, favorites, and frequent locations)</li>
+				<li>Open help menu for navigation</li>
+			</ol>
+			<p>We also created hierarchical task analyses for each use case. For brevity, I will only outline one use case.</p>
+			<p>Use Case 1 is arguably the most frequent task. Thus, this use case has a significant amount of sub tasks. </p>
+			<h4>Use Case 1</h4>
+			<p>A: The user opens NextBus.</p>
+			<ol>
+				<li class="center">The user opens the application.</li>
+				<li>The user finds the app on their phone.</li>
+				<li>The user selects the app.</li>
+			</ol>
+			<p>B: The user plans route.</p>
+			<ol>
+				<li>The user finds transit options.</li>
+				<li>The user selects Transit menu option.</li>
+				<li>The user selects the agency (one or more than one).</li>
+				<li>The user selects the route.</li>
+				<li>The user specifies the destination.</li>
+				<li>The user specifies the stop.</li>
+				<li>The user finds nearby options.</li>
+				<li>The user selects the nearby menu option.</li>
+				<li>The user filters through nearby menu options in the direction of their destination.</li>
+				<li>The user selects the ideal route.</li>
+				<li>The user finds the fastest route.</li>
+			</ol>
+			<p>C: The user travels to bus stop</p>
+			<ol>
+				<li>The user revisits step B1 if the route does not work for the user’s schedule.</li>
+				<li>The user locates the bus stop.</li>
+				<li>The user opens the map.</li>
+			</ol>
+			<h2>Table of Contents</h2>
+			<p><a href="https://toddsmith-ux.github.io/Next_Bus_Intro.html">Intro</a></p>
+			<p><a href="https://toddsmith-ux.github.io/Next_Bus_Audience.html">Personas</a></p>
+			<p><a href="https://toddsmith-ux.github.io/Next_Bus_UseCase.html">Use Case</a></p>
+			<p><a href="https://toddsmith-ux.github.io/Next_Bus_Recommendations.html">Design Recommendations</a></p>
+			<p><a href="https://toddsmith-ux.github.io/Next_Bus_Intro.html">Results</a></p>
+			</section>
+			<footer>
+				<p>I coded this theme.</p>
+				<span id="todays-date">Date will go here</span>
+			</footer>
+			<script>
+				var todaysDate = new Date();
+				var dateElement = document.querySelector("#todays-date");
+				dateElement.textContent = todaysDate;
+			</script>
+	</div>
+	</body>
+</html>
