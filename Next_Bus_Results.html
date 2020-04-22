@@ -17,81 +17,6 @@
 			<a href="https://toddsmith-ux.github.io/Credentials.html" class="navLinks">Credentials</a>
 		</nav>
 		<section>
-
-			<h2>User Task Analysis</h2>
-			<h3>Use Cases</h3>
-			<p>To outline the user's process as they navigate through the interface, we wrote use cases for the following tasks:</p>
-			<ol>
-				<li class="center">1. Find the next available bus to take the user home (via multiple bus agencies)</li>
-				<li class="center">2. Create a user profile (to indicate home, favorites, and frequent locations)</li>
-				<li class="center">3. Open help menu for navigation</li>
-			</ol>
-			<p>We also created hierarchical task analyses for each use case. For brevity, I will only outline one use case.</p>
-			<h4>Use Case 1</h4>
-			<p>A: The user opens NextBus.</p>
-			<ol>
-				<li class="center">1. The user opens the application.</li>
-				<li class="center">2. The user finds the app on their phone.</li>
-				<li class="center">3. The user selects the app.</li>
-			</ol>
-			<p>B: The user plans route.</p>
-			<ol>
-				<li class="center">1. The user finds transit options.</li>
-				<li class="center">2. The user selects Transit menu option.</li>
-				<li class="center">3. The user selects the agency (one or more than one).</li>
-				<li class="center">4. The user selects the route.</li>
-				<li class="center">5. The user specifies the destination.</li>
-				<li class="center">6. The user specifies the stop.</li>
-				<li class="center">7. The user finds nearby options.</li>
-				<li class="center">8. The user selects the nearby menu option.</li>
-				<li class="center">9. The user filters through nearby menu options in the direction of their destination.</li>
-				<li class="center">10. The user selects the ideal route.</li>
-				<li class="center">11. The user finds the fastest route.</li>
-			</ol>
-			<p>C: The user travels to bus stop</p>
-			<ol>
-				<li class="center">1. The user revisits step B1 if the route does not work for the user’s schedule.</li>
-				<li class="center">2. The user locates the bus stop.</li>
-				<li class="center">3. The user opens the map.</li>
-			</ol>
-			<h2>Design Recommendations</h2>
-			<p>To improve the UI in the NextBus app, we identified four design recommendations:</p>
-			<h3>Recommendation 1: Combine and reduce list
-			view and map view</h3>
-			<p>Currently, the “Nearby” tab within the app serves as the primary navigation page. This page contains a list view displaying all nearby routes, sorted by proximity from the user’s location. When clicking into a route, the user is shown a map view with the selected route
-			overlayed and highlighted in color. The route details are displayed above the map view. These details are identical to the details listed in the Nearby list view.</p>
-			<img src="../images-NextBus/Homepage_Old.jpg" alt="Original Home Page View" style="width:250px;height400px">
-			<span class="center">Figure 1: Current NextBus Page</span>
-			<p>To increase readability and efficiency at first glance, we propose 1) combining these views
-			into one view which then allows us to 2) remove route details that is now shared by one
-			view.</p>
-			<p>The primary motive for this design decision was efficiency. Combining the map and list view
-			minimizes the number of discrete steps necessary to compare routes, maximizing exposure to route information, and ultimately reduces the amount of time required for the user to identify the optimal route.
-			The second motive in collapsing the two screens into one is that it reduces extraneous information such as the route detail that was previously duplicated on the list view and map view.</p>
-			<img src="../images-NextBus/Revised_Route_View.png" alt="Revised Home Page View" style="width:250px;height400px">
-			<span class="center">Figure 2: Home Page Redesign</span>
-			<h3>Recommendation 2: Improve icons, icon labels, and placement</h3>
-			<p>We wanted to increase usability for icons by helping users to understand the icons’ controls and impacts on the user interface. Also, we want to ensure that the selected icons are not confusing to the user. For example, the Nearby icon represents a dropped pin on a map. However, the dropped
-			pin concept is unique to digital maps. Although this icon is frequently used in transit apps,
-			first time users may not understand the significance of this app.</p>
-			<img src="../images-NextBus/Old_Icons.jpg" alt="Old Bus Icons" class="center" style="width:300px;height200px">
-			<span class="center">Figure 3: Old Icons</span>
-			<p>Thus, we must change the icon so that users understand how the icon controls the interface. To accomplish this goal, we plan to change the icons from symbolic style to iconic style.</p>
-			<img src="../images-NextBus/New_Icons.jpg" alt="New Bus Icons" class="center" style="width:300px;height200px">
-			<span class="center">Figure 4: New Icons</span>
-			<h3>Recommendation 3: Select Multiple Agencies At Once</h3>
-			<p>This design decision enables users to select multiple bus agencies either during the onboarding process or at any time in their profile page. Currently the list view of agencies allows user to tap on a single agency, which applies a checkmark icon to indicate the preference - effectively serving as a radiobutton.</p>
-			<p>Instead of permitting users to view bus routes from a single bus agency in the primary navigation page, we allow them toggle the bus agency through a dropdown list at the top right corner of the navigation page. This dropdown will contain all the agencies they previously selected, and the map and route list will be serve data from the selected agency only.</p>
-			<img src="../images-NextBus/Selecting_Multiple_Agencies" alt="Selecting Multiple Agencies" style="width:250px;height400px">
-			<span class="center">Figure 5: Selecting Multiple Agencies at Once</span>
-			<h3>Recommendation 4: Increase Customization</h3>
-			<p>In “Customization of user interfaces to reduce errors and enhance user acceptance,” (Burkoleter, Weyers, Kluge, and Luther, 2014) the authors test the impact of customization on users’ efficiency, visual element recognition, and error rates. In their experiment, they
-			conducted a between subjects experiment between two user groups: a customizable interface and a standard one. The participants in the customizable group rearranged their
-			own interfaces to their preference. Overall, the researchers found that the customizable group exhibited a lower error rate and higher acceptance rate in relation to their interface.</p>
-			<p>Thus, we used this study to create a prototype profile option that enables users to achieve customization.</p>
-			<img src="../images-NextBus/NextBus_Profile.png" alt="Next Bus New Profile Option" style="width:250px;height400px">
-			<span class="center">Figure 6: New Profile Menu</span>
-			<p>Note that this feature does not currently exist in the UI.</p>
 			<h2>Usability Test</h2>
 			<h3>Prototype</h3>
 			<p>I created a prototype using Adobe XD. You can access the prototype <a href="https://xd.adobe.com/view/b089a11e-b4e0-491a-681e-786a73283bda-c6b8/?hints=off">here</a>.</p>
@@ -103,10 +28,27 @@
 				<li class="center">2. Edit application settings</li>
 				<li class="center">3. Set a frequent destination</li>
 			</ul> 
-			<p>Afterwards, we showed the users our prototype and asked them about their impressions. Since this is a small study, we acknowledge that we cannot draw any generalizations from this test. From the contextual inquiry, we learned the following insights: Strengths of the redesign include the simplification of navigation flow and the comprehensiveness of user profile</p>
-			<p>Weaknesses included the order of menu buttons and the lack of support features for new users. For individuals who were active NextBus users, their existing preferences and habits affected their statements. As an example, combining the map view and list view to form the primary navigation flow was highly supported by the comments of some active users, while others did not find any improvement as they did not use the map at all.</p>
+			<p>Afterwards, we showed the users our prototype and asked them about their impressions. 
+			Since this is a small study, we acknowledge that we cannot draw any generalizations from this test. 
+			From the contextual inquiry, we learned the following insights: Strengths of the redesign include the 
+			simplification of navigation flow and the comprehensiveness of user profile</p>
+			<p>Weaknesses included the order of menu buttons and the lack of support features for new users. 
+			For individuals who were active NextBus users, their existing preferences and habits affected their statements.
+			As an example, combining the map view and list view to form the primary navigation flow was highly supported 
+			by the comments of some active users, while others did not find any improvement as they did not use the 
+			map at all.</p>
 			<h2>Conclusion</h2>
-			<p>From this experience, I believe the changes that we implemented will improve usability for the user. The most important lesson I learned from this experience is the value of cognitive load. When users navigate a user interface, they only need to know the see the essential information. Thus, cognitive load can make or break a user’s experience. If a user finds it mentally taxing to use an app, then they will not use the app. </p>
+			<p>From this experience, I believe the changes that we implemented will improve usability for the user. 
+			The most important lesson I learned from this experience is the value of cognitive load. 
+			When users navigate a user interface, they only need to know the see the essential information. 
+			Thus, cognitive load can make or break a user’s experience. 
+			If a user finds it mentally taxing to use an app, then they will not use the app. </p>
+			<h2>Table of Contents</h2>
+			<p><a href="https://toddsmith-ux.github.io/Next_Bus_Intro.html">Intro</a></p>
+			<p><a href="https://toddsmith-ux.github.io/Next_Bus_Audience.html">Personas</a></p>
+			<p><a href="https://toddsmith-ux.github.io/Next_Bus_UseCase.html">Use Case</a></p>
+			<p><a href="https://toddsmith-ux.github.io/Next_Bus_Recommendations.html">Design Recommendations</a></p>
+			<p><a href="https://toddsmith-ux.github.io/Next_Bus_Intro.html">Results</a></p>
 			</section>
 			<footer>
 				<p>Theme designed by me.</p>
