@@ -138,6 +138,13 @@ body {
 				margin-left: auto;
 				margin-right: auto;
 			}
+			.portfolio-text {
+				font-family: 'Libre Baskerville', serif;
+				font-size: .6em;
+				color: whitesmoke;
+				line-height: 1.5;
+				text-align: center;
+			}
 			span {
 				font-family: Montserrat, serif;
 				font-size: .6em;
