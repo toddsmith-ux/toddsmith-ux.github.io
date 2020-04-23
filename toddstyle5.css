@@ -225,3 +225,19 @@ body {
 			-webkit-text-fill-color: transparent;
 			-moz-text-fill-color: transparent;
 			}
+			.imgcontainer {
+				display: inline-block;
+				margin: auto;
+				height: 30px;
+				/* text-align: center; */
+				width: 400px; 
+				line-height: 1;
+			}
+			.imgcontainer2 {
+				display: inline-block;
+				margin: auto;
+				height: 30px;
+				/* text-align: center; */
+				width: 400px; 
+				line-height: 1;
+			}
